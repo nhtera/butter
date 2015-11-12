@@ -2,8 +2,8 @@
     'use strict';
 
     var API_ENDPOINT = URI('https://api-v2launch.trakt.tv'),
-        CLIENT_ID = 'c7e20abc718e46fc75399dd6688afca9ac83cd4519c9cb1fba862b37b8640e89',
-        CLIENT_SECRET = '476cf15ed52542c2c8dc502821280aa5f61a012db57f1ed1f479aaf88ab385cb',
+        CLIENT_ID = '647c69e4ed1ad13393bf6edd9d8f9fb6fe9faf405b44320a6b71ab960b4540a2',
+        CLIENT_SECRET = 'f55b0a53c63af683588b47f6de94226b7572a6f83f40bd44c58a7c83fe1f2cb1',
         REDIRECT_URI = 'urn:ietf:wg:oauth:2.0:oob';
 
     function TraktTv() {

@@ -1,18 +1,18 @@
 /** Default settings **/
 var Settings = {
     projectName: 'Butter',
-    projectUrl: 'https://butterproject.org',
+    projectUrl: 'http://butterproject.org',
     projectTwitter: 'butterproject',
     projectFacebook: 'ButterProjectOrg',
     projectGooglePlus: 'ButterProject',
-    projectBlog: 'https://butterproject.github.com/butter/blog',
-    projectForum: 'https://butterproject.github.com/butter/forum',
+    projectBlog: 'http://blog.butterproject.org/',
+    projectForum: 'http://discuss.butterproject.org/',
 
     statusUrl: 'https://status.butterproject.org',
-    changelogUrl: 'https://butterproject.github.com/butter/',
-    issuesUrl: 'https://butterproject.github.com/butter/issues',
-    sourceUrl: 'https://butterproject.github.com/butter/',
-    commitUrl: 'https://butterproject.github.com/butter/commit/'
+    changelogUrl: 'https://github.com/butterproject/butter-desktop/commits/master',
+    issuesUrl: 'https://github.com/butterproject/butter-desktop/issues',
+    sourceUrl: 'https://github.com/butterproject/butter-desktop/',
+    commitUrl: 'https://github.com/butterproject/butter-desktop/commit'
 };
 
 // User interface
@@ -93,7 +93,7 @@ Settings.minimizeToTray = false;
 Settings.bigPicture = false;
 
 // Features
-Settings.activateTorrentCollection = true;
+Settings.activateTorrentCollection = false;
 Settings.activateWatchlist = true;
 Settings.activateRandomize = true;
 Settings.onlineSearchEngine = 'KAT';
@@ -109,7 +109,7 @@ Settings.updateEndpoint = {
         url: 'https://butterproject.org/',
         fingerprint: '',
     }, {
-        url: 'https://butterproject.github.com/butter/updates',
+        url: 'https://butterproject.github.io/',
         fingerprint: ''
     }]
 };
